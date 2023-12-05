@@ -8,6 +8,8 @@ import (
 )
 
 func GetConn() *sql.DB {
+	//host=localhost port=5432 dbname=gosql user=loonaticbyu password=Hasooyoung@4 sslmode=disable
+	//root:@tcp(localhost:3306)/gosql
 	db, err := sql.Open("mysql", "root:@tcp(localhost:3306)/gosql")
 	if err != nil {
 		panic(err)

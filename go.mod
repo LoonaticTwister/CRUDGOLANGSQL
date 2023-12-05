@@ -1,5 +1,7 @@
-module program_crud_gosql
+module ap3b
 
 go 1.21.1
 
-require github.com/go-sql-driver/mysql v1.7.1 // indirect
+require (
+	github.com/go-sql-driver/mysql v1.7.1 
+)
